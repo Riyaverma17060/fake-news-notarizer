@@ -1,0 +1,11 @@
+{
+  "canisters": {
+    "notarizer": {
+      "type": "motoko",
+      "main": "src/notarizer/main.mo",
+      "candid": "src/notarizer/candid/notarizer.did"
+    }
+  },
+  "networks": { "local": { "bind": "127.0.0.1:8000", "type": "ephemeral" } },
+  "defaults": { "build": {"network":"local"}, "deploy": {"network":"local"} }
+}
