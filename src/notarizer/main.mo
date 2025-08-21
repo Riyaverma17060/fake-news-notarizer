@@ -23,7 +23,7 @@ actor class Notarizer() = this {
 
   public shared(msg) func notarize(hash: Text, verdict: Text, metadata: Text) : async Text {
     Debug.print("notarize called");
-    if (!validateHash(hash)) {
+    if (not validateHash(hash)) {
       Debug.print("invalid hash");
       return "error: invalid hash";
     };
@@ -48,7 +48,7 @@ actor class Notarizer() = this {
   };
 
   public query func get_record(hash: Text) : async ?Notarization {
-    if (!validateHash(hash)) return null;
+    if (not validateHash(hash)) return null;
     return Trie.get(hash, store);
   };
 
