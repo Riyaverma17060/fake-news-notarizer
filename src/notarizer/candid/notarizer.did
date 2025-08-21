@@ -1,3 +1,23 @@
+// Interface definition for the Fake News Notarizer canister
+
 service : {
-  greet: () -> (text) query;
+  
+  // Notarize a piece of content with metadata
+  // Params: (content, verifier, metadata)
+  // Returns: unique hash identifier
+  notarize: (text, text, text) -> (text) query;
+
+  // Retrieve a notarized record by its hash
+  // Params: (hash)
+  // Returns: optional record with verifier, verdict, timestamp, and metadata
+  get_record: (text) -> (opt record {
+    verifier: text;
+    verdict: text;
+    timestamp: int;
+    metadata: text;
+  }) query;
+
+  // List all notarized content hashes stored on-chain
+  list_hashes: () -> (vec text) query;
 }
+
