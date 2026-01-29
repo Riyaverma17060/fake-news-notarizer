@@ -37,17 +37,9 @@ The app is currently hosted locally. You can run it on your command prompt via l
 - Blockchain: Motoko for smart contracts, Internet Computer Protocol (ICP-ready architecture)
 - Verification Ledger: Blockchain-inspired structure for tamper-proof tracking
 
-# Future Roadmap
-
-- Launch a user-friendly frontend for seamless submissions (core app functionality already ready).
-- Enhance AI detection with domain-specific fine-tuning for higher accuracy.
-- Release a browser extension for real-time detection and notarization directly on web pages.
-- Incorporate analytics and reporting tools to track misinformation trends.
-- Enable cross-platform verification and integrations with news platforms and APIs.
-
 # Why I Built This
 
-- Tackles real-world misinformation: Practical solution combining AI + blockchain.
+- Tackles real-world misinformation: Practical solution combining AI & blockchain.
 - Transparent and verifiable: Provides immutable proofs of content authenticity.
 - Scalable & future-ready: Designed for web, browser, and global deployment.
 - Empowers users and organizations: Journalists, educators, and platforms can verify content instantly.
