@@ -16,7 +16,7 @@
 <img width="1896" height="884" alt="image" src="https://github.com/user-attachments/assets/647e44f5-a7cc-4a38-bc32-ab72b9482c4d" />
 
 # Current App Access:
-The app is currently hosted locally. You can run it on your command prompt via localhost:7860. Full public deployment is planned after integrating all roadmap features.
+The app is currently hosted locally. You can run it on your command prompt via localhost:7860. 
 
 # Repo Structure
 
