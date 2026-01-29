@@ -1,7 +1,8 @@
 # Fake News Notarizer (Veracity Hub)
 
 - Decentralized AI‑powered fake-news detection and notarization leveraging the Internet Computer Protocol (ICP)
-- It combines AI-based fake news detection with blockchain-inspired notarization to provide transparent, verifiable proofs of authenticity. It is designed to help users, journalists, and organizations verify content quickly while preparing for full decentralized deployment on ICP.
+- It combines AI-based fake news detection with blockchain-inspired notarization to provide transparent, verifiable proofs of authenticity. 
+- It is designed to help users, journalists, and organizations verify content quickly.
 
 # Demo & Screenshots
 
@@ -50,5 +51,3 @@ The app is currently hosted locally. You can run it on your command prompt via l
 - Transparent and verifiable: Provides immutable proofs of content authenticity.
 - Scalable & future-ready: Designed for web, browser, and global deployment.
 - Empowers users and organizations: Journalists, educators, and platforms can verify content instantly.
-
-Note: Full deployment will be available in the future after adding planned functionalities, including the frontend, browser plugin, and global ICP deployment. 
